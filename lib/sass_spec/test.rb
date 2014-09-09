@@ -28,6 +28,8 @@ end
 # Holder to put and run test cases
 class SassSpec::Test < Minitest::Test
   parallelize_me!
+  i_suck_and_my_tests_are_order_dependent!
+
   def self.create_tests(test_cases, options = {})
     test_cases.each do |test_case|
       define_method('test__' << test_case.name) do
