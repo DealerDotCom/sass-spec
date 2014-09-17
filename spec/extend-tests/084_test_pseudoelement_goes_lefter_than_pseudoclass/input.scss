@@ -1,12 +1,2 @@
-%a {
-  x:y;
-}
-b:after:not(:first-child) {
-  @extend %a;
-}
-c:d {
-  @extend %a;  
-}
-e::f {
-  @extend c;
-}
+.foo:bar {a: b}
+.baz::bang {@extend .foo}
