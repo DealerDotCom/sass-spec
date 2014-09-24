@@ -1,0 +1,5 @@
+.foo.bar, .baz .qux {
+  aaa: bbb; }
+
+.foo, .baz .qux {
+  ccc: ddd; }

@@ -1,0 +1,13 @@
+.foo.bar { aaa:bbb }
+
+
+.foo {
+	ccc:ddd;
+}
+
+.baz {
+	.qux {
+		@extend .foo;
+		@extend .bar;
+	}
+}

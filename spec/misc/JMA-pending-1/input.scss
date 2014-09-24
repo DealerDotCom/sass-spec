@@ -1,0 +1,15 @@
+.a { 
+	&.foo { x:y; }
+}
+
+.b {
+	@extend .a;
+}
+
+.c {
+	@extend .foo;
+}
+
+.d { 
+	.b { x:y; }
+}

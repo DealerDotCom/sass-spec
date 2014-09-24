@@ -1,0 +1,5 @@
+.a.foo, .foo.b, .c.b, .a.c {
+  x: y; }
+
+.d .b {
+  x: y; }

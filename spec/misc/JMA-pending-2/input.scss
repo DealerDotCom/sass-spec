@@ -1,0 +1,25 @@
+.a {
+  x:y;
+}
+
+.b {
+	&.c:focus {
+		x:y;
+	}
+}
+
+.d { @extend .b; @extend .c; }
+
+
+.foo { 
+	.bar {
+		.b,
+		.d { @extend .a; }
+	}
+}
+
+.baz {
+	.qux {
+		@extend .b;
+	}
+}

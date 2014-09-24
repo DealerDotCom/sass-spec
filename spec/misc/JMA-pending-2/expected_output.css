@@ -1,0 +1,6 @@
+.a, .foo .bar .b,
+.foo .bar .d, .foo .bar .baz .qux, .baz .foo .bar .qux {
+  x: y; }
+
+.b.c:focus, .d:focus, .baz .c.qux:focus {
+  x: y; }
